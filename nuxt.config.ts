@@ -16,9 +16,13 @@ export default defineNuxtConfig({
     },
   },
   modules: ["@nuxtjs/sitemap", "@nuxtjs/robots"],
+  site: {
+    url: "https://cemilan-dan-snack-mamah-ntin.id",
+  },
   sitemap: {
     hostname: "https://cemilan-dan-snack-mamah-ntin.id",
     gzip: true,
+    xsl: false,
   },
   robots: {
     rules: [
