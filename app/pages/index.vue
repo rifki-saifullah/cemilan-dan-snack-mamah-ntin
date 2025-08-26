@@ -8,11 +8,12 @@ import Singapore from "@/assets/images/singapore.jpg";
 import Taiwan from "@/assets/images/taiwan.jpg";
 
 import Keripik2 from "@/assets/images/keripik-2.jpeg";
+import Keripik3 from "@/assets/images/keripik-3.jpeg";
 import Menu14 from "@/assets/images/14.jpeg";
 import Menu12 from "@/assets/images/12.jpeg";
 
 useHead({
-  title: "Beranda - Cemilan dan Snack Mamah Ntin Kedungdalem",
+  title: "Beranda - Cemilan & Snack Mamah Ntin Kedungdalem",
   meta: [
     {
       name: "description",
@@ -21,14 +22,14 @@ useHead({
     },
     {
       property: "og:title",
-      content: "Makanan dan Snack Mama Ntin Kedungdalem",
+      content: "Makanan dan Snack Mamah Ntin Kedungdalem",
     },
     {
       property: "og:description",
       content: "Cemilan enak, gurih, dan fresh setiap hari.",
     },
     { property: "og:type", content: "website" },
-    { property: "og:url", content: "https://cemilan-dan-snack-mamah-ntin.id" },
+    { property: "og:url", content: "https://cemilan-dan-snack-mamah-ntin.vercel.app" },
   ],
 });
 
@@ -67,7 +68,7 @@ const countries = [
       "https://unsplash.com/photos/people-walking-on-street-during-daytime-ZlrTpa43Pbw",
   },
   {
-    name: "Abu Dabi",
+    name: "Abu Dabhi",
     image: AbuDabi,
     alt: "Abu Dabi",
     creditName: "Salman Sidheek",
@@ -99,7 +100,7 @@ const countries = [
     <section class="text-center py-16 px-6">
       <h1 class="text-3xl md:text-5xl font-extrabold text-gray-800">
         Selamat Datang di <br />
-        <span>Cemilan & Snack Mama Ntin</span>
+        <span>Cemilan & Snack Mamah Ntin</span>
       </h1>
       <p class="mt-4 text-gray-700 max-w-2xl mx-auto">
         Nikmati aneka makanan ringan khas Kedungdalem yang renyah, gurih, dan
@@ -133,6 +134,17 @@ const countries = [
           class="bg-white shadow-lg rounded-xl p-6 text-center hover:scale-105 transition"
         >
           <img
+            :src="Keripik3"
+            alt="Keripik Sukun"
+            class="rounded-lg mx-auto mb-4 h-40 object-cover"
+          />
+          <h3 class="font-semibold text-lg">Keripik Sukun</h3>
+          <p class="text-gray-600 text-sm">Cemilan alami yang bikin ketagihan di setiap gigitannya</p>
+        </div>
+        <div
+          class="bg-white shadow-lg rounded-xl p-6 text-center hover:scale-105 transition"
+        >
+          <img
             :src="Keripik2"
             alt="Keripik Pisang"
             class="rounded-lg mx-auto mb-4 h-40 object-cover"
@@ -150,17 +162,6 @@ const countries = [
           />
           <h3 class="font-semibold text-lg">Ayam Bakar</h3>
           <p class="text-gray-600 text-sm">Paket Ayam Bakar pas buat temen santai</p>
-        </div>
-        <div
-          class="bg-white shadow-lg rounded-xl p-6 text-center hover:scale-105 transition"
-        >
-          <img
-            :src="Menu12"
-            alt="Sop Kambing"
-            class="rounded-lg mx-auto mb-4 h-40 object-cover"
-          />
-          <h3 class="font-semibold text-lg">Sop Kambing</h3>
-          <p class="text-gray-600 text-sm">Sup hangat daging kambing berbumbu rempah kaya rasa</p>
         </div>
       </div>
     </section>

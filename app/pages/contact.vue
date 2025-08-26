@@ -1,9 +1,9 @@
 <script setup>
 useHead({
-  title: "Kontak - Cemilan dan Snack Mamah Ntin",
+  title: "Kontak - Cemilan & Snack Mamah Ntin",
   meta: [
-    { name: "description", content: "Hubungi Mama Ntin Kedungdalem untuk pemesanan kerupuk, keripik, rempeyek, dan snack lainnya." },
-    { property: "og:title", content: "Kontak Mama Ntin - Pesan Cemilan Mudah" },
+    { name: "description", content: "Hubungi Mamah Ntin Kedungdalem untuk pemesanan keripik dan makanan lainnya." },
+    { property: "og:title", content: "Kontak Mamah Ntin - Pesan Mudah" },
     { property: "og:description", content: "Pesan snack favoritmu dengan mudah lewat WhatsApp atau kunjungi lokasi kami." },
     { property: "og:type", content: "website" },
   ]

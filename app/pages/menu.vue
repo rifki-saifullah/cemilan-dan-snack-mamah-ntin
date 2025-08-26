@@ -1,5 +1,6 @@
 <script setup>
 import Keripik from "@/assets/images/keripik-2.jpeg";
+import Keripik3 from "@/assets/images/keripik-3.jpeg";
 import Menu1 from "@/assets/images/1.jpeg";
 import Menu2 from "@/assets/images/2.jpeg";
 import Menu3 from "@/assets/images/3.jpeg";
@@ -14,7 +15,7 @@ import Menu11 from "@/assets/images/11.jpeg";
 import Menu12 from "@/assets/images/12.jpeg";
 
 useHead({
-  title: "Menu - Cemilan dan Snack Mamah Ntin Kedungdalem",
+  title: "Menu - Cemilan & Snack Mamah Ntin Kedungdalem",
   meta: [
     {
       name: "description",
@@ -25,18 +26,24 @@ useHead({
     {
       property: "og:description",
       content:
-        "Nikmati berbagai pilihan kerupuk, keripik, dan rempeyek khas Kedungdalem.",
+        "Nikmati berbagai pilihan keripik, dan makanan khas Mamah Ntin Kedungdalem.",
     },
     { property: "og:type", content: "website" },
     {
       property: "og:url",
-      content: "https://makanan-dan-snack-mamah-ntin.id/menu",
+      content: "https://cemilan-dan-snack-mamah-ntin.vercel.app/menu",
     },
   ],
 });
 
 // Data menu
 const menus = [
+  {
+    image: Keripik3,
+    alt: "Keripik Sukun",
+    name: "Keripik Sukun",
+    desc: "Cemilan alami yang bikin ketagihan di setiap gigitannya",
+  },
   {
     image: Keripik,
     alt: "Keripik Pisang",
