@@ -94,9 +94,9 @@ const menus = [
   },
   {
     image: Menu12,
-    alt: "Sop Kambing",
-    name: "Sop Kambing",
-    desc: "Sup hangat daging kambing berbumbu rempah kaya rasa",
+    alt: "Sop Iga Sapi",
+    name: "Sop Iga Sapi",
+    desc: "Sup hangat daging sapi berbumbu rempah kaya rasa",
   },
 ];
 </script>
