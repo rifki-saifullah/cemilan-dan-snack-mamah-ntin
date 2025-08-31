@@ -1,10 +1,11 @@
 <script setup>
 useHead({
-  title: "Kontak - Cemilan & Snack Mamah Ntin",
+  title: "Kontak Mamah Ntin - Pesan Cemilan Kedungdalem Gegesik",
   meta: [
-    { name: "description", content: "Hubungi Mamah Ntin Kedungdalem untuk pemesanan keripik dan makanan lainnya." },
-    { property: "og:title", content: "Kontak Mamah Ntin - Pesan Mudah" },
-    { property: "og:description", content: "Pesan snack favoritmu dengan mudah lewat WhatsApp atau kunjungi lokasi kami." },
+    { name: "description", content: "Hubungi Mamah Ntin Kedungdalem Gegesik Cirebon untuk pemesanan keripik, snack, dan makanan lainnya." },
+    { name: "keywords", content: "kontak mamah ntin, pesan snack kedungdalem, umkm gegesik, order keripik cirebon" },
+    { property: "og:title", content: "Kontak Mamah Ntin - Cemilan Kedungdalem" },
+    { property: "og:description", content: "Pesan snack favoritmu dengan mudah lewat WhatsApp atau kunjungi lokasi kami di Kedungdalem, Gegesik, Cirebon." },
     { property: "og:type", content: "website" },
   ]
 })
