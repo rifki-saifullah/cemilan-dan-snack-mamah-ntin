@@ -22,8 +22,7 @@ export default defineNuxtConfig({
         },
         { name: "author", content: "Rifki Saifullah" },
         // 🔑 Ganti dengan kode verifikasi dari Google Search Console
-        { name: "google-site-verification", content: "kode-verifikasi-unik" },
-
+        { name: "google-site-verification", content: "snYW0PRTkFfZdYskRIeFCux8LsOFvtQ8bzbKStGlFi4" },
         // Open Graph
         { property: "og:title", content: "Cemilan & Snack Mamah Ntin" },
         {
