@@ -12,7 +12,7 @@ const route = useRoute();
   <div>
     <header class="shadow py-4 px-8 md:px-12 flex justify-between items-center">
       <NuxtLink href="/">
-        <h1 class="flex gap-2 items-center font-extrabold text-md md:text-lg tracking-wide drop-shadow">
+        <h1 class="flex gap-2 items-center font-extrabold text-xs md:text-lg tracking-wide drop-shadow">
           <img :src="Logo" class="w-10" />
           CEMILAN & SNACK MAMAH NTIN
         </h1>
